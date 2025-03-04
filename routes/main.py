@@ -8,7 +8,7 @@ from flask import Blueprint, render_template, request, redirect, url_for, flash,
 main_bp = Blueprint('main', __name__)
 
 # Configure Google Generative AI
-GOOGLE_API_KEY = "AIzaSyCjeWAsyXA24ercu7XRISggxH0_Fzf68Kw"
+GOOGLE_API_KEY = "API_Key"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 UPLOAD_FOLDER = 'uploads'
